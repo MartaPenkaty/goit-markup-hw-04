@@ -133,6 +133,10 @@ h2 {
 .address:last-child > li {
   margin-left: 50px;
 }
+
+.contact-icons{
+  fill:#757575;
+}
 /*==== END HEADER ==== */
 
 /*=== MAIN === */
@@ -438,4 +442,10 @@ width: 44px;
 .footer-media-icons:focus {
     fill: #fff;
     background-color: #2196F3;   
+}
+.nav-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
 }
