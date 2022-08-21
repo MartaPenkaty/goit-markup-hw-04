@@ -149,6 +149,12 @@ h2 {
   align-items: center;
   padding-right: 10px;
 }
+.main-contacts {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+/*
 .contacts-pack {
   display: flex;
   justify-content: space-between;
@@ -156,7 +162,7 @@ h2 {
   padding-bottom: 25px;
   padding-top: 24px;
 }
-
+*/
 
 /*==== END HEADER ==== */
 
