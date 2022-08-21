@@ -136,7 +136,15 @@ h2 {
 
 .contact-icons{
   fill:#757575;
+
 }
+.nav-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+
 /*==== END HEADER ==== */
 
 /*=== MAIN === */
@@ -234,6 +242,16 @@ h2 {
 
 .team {
   background-color: #f5f4fa;
+}
+.icon-asset{
+  display: flex;
+  background-color:#f5f4fa ;
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 102.34px;
+  padding-right: 102.34px;
+  border-radius: 4px;
 }
 /*===  END MAIN === */
 /* ==== FOOTER === */
