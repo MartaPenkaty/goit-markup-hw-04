@@ -149,6 +149,14 @@ h2 {
   align-items: center;
   padding-right: 10px;
 }
+.contacts-pack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+  padding-top: 24px;
+}
+
 
 /*==== END HEADER ==== */
 
@@ -258,6 +266,36 @@ h2 {
   padding-right: 102.34px;
   border-radius: 4px;
 }
+.team-social-links{
+   display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.padding-team{
+  padding-bottom: 30px;
+}
+.team-social-icon {
+display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.team-social-icon:hover{
+ background-color: var(--blue-color);
+}
+.team-social-icon:hover svg {
+  fill: #ffffff;
+}
+.social-icon {
+  fill: #afb1b8;
+  height: 20px;
+  width: 20px;
+}
+
 /*===  END MAIN === */
 /* ==== FOOTER === */
 .address-phone-number-footer,
