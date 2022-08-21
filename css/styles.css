@@ -2,6 +2,11 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --main-color: #2196f3;
+  --brand-color: #212121; 
+--second-color: #FFFFFF;
+--description-color: #757575;
+--background-color: #2f303a;
+--second-background-color: #f5f4fa;
 }
 
 * {
@@ -10,8 +15,8 @@
 }
 body {
   font-family: var(--main-font);
-  color: #212121;
-  background: #ffffff;
+  color: var(--brand-color);
+    background: var(--second-color);
 }
 
 /*=== COMPONENT ====*/
@@ -40,7 +45,7 @@ h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
-  color: #ffffff;
+  color: var(--second-color);
   letter-spacing: 0.06em;
   margin-bottom: 30px;
 }
@@ -50,7 +55,7 @@ h4 {
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--brand-color);
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -60,7 +65,7 @@ h2 {
   line-height: 1.667;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--brand-color);
 }
 /*=== END COMPONENT ====*/
 
@@ -135,7 +140,7 @@ h2 {
 }
 
 .contact-icons{
-  fill:#757575;
+  fill: var(--description-color);
 
 }
 .nav-icon {
@@ -157,14 +162,14 @@ h2 {
   letter-spacing: 0.06em;
   cursor: pointer;
   background: var(--main-color);
-  color: #ffffff;
+  color: var(--second-color);
   border: none;
   border-radius: 4px;
   border: none;
 }
 .main-button:hover,
 .main-button:focus {
-  color: #ffffff;
+  color: var(--second-color);
   background-color: var(--main-color);
   border-color: var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -173,7 +178,7 @@ h2 {
 
 .banner {
   padding-top: 280px;
-  background-color: #2f303a;
+  background-color: var(--background-color) ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -186,7 +191,7 @@ h2 {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--description-color);
   display: flex;
   flex-direction: row;
   gap: 30px;
@@ -199,7 +204,7 @@ h2 {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--brand-color);
   text-align: center;
   margin-bottom: 10px;
 }
@@ -209,7 +214,7 @@ h2 {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--description-color);
   text-align: center;
 }
 
@@ -232,7 +237,7 @@ h2 {
 .team-list > li {
   
   height: 368px;
-  background-color: #ffffff;
+  background-color: var(--second-color);
 }
 
 .team-list-item > .team-images {
@@ -241,7 +246,7 @@ h2 {
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--second-background-color) ;
 }
 .icon-asset{
   display: flex;
@@ -272,15 +277,14 @@ h2 {
   color: var(--main-color);
 }
 .address {
-  color: #ffffff;
-  margin-top: 30px;
-  margin-bottom: 9px;
+  color:var(--second-color);
+ 
 }
 footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #2f303a;
+  background-color: var(--background-color) ;
 }
 
 .footer-description {
@@ -298,7 +302,7 @@ footer {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--brand-color);
   margin-bottom: 4px;
 }
 .image-subtitle {
@@ -306,7 +310,7 @@ footer {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--description-color);
 }
 
 .first-btn {
@@ -374,7 +378,7 @@ footer {
 .third-btn:focus,
 .fourth-btn:focus,
 .fifth-btn:focus {
-  color: #ffffff;
+  color:var(--second-color);
   background: var(--main-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
