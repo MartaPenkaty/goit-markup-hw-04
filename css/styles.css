@@ -131,8 +131,10 @@ h2 {
   margin-right: 46px;
 }
 
-.main-contacts > li {
+.main-contacts {
   display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .main-contacts:last-child > li {
