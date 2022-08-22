@@ -404,9 +404,13 @@ footer {
 .footer-description {
   padding-top: 60px;
   padding-bottom: 60px;
-  display: flex;
+  /*  display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-start; */
+}
+.footer-info {
+  display: flex;
+  gap: 70px;
 }
 
 .contacts-footer {
