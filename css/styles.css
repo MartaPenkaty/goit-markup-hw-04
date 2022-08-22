@@ -7,7 +7,7 @@
   --description-color: #757575;
   --background-color: #2f303a;
   --second-background-color: #f5f4fa;
-  --icon-color: #afb1b8; 
+  --icon-color: #afb1b8;
 }
 
 * {
@@ -333,36 +333,36 @@ h2 {
 }
 
 .social-icon {
-  fill: var( --icon-color);
+  fill: var(--icon-color);
   height: 20px;
   width: 20px;
 }
 
 .clients {
-  display:flex;
+  display: flex;
   flex-direction: row;
-  gap:30px;
+  gap: 30px;
+  padding-top: 50px;
 }
 
 .clients-icons {
-  border: 1px solid var( --icon-color);
+  border: 1px solid var(--icon-color);
   border-radius: 4px;
-  width:170px;
-  height:92px;
-  display:flex;
+  width: 170px;
+  height: 92px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  fill: var( --icon-color);
-  cursor:pointer;
+  fill: var(--icon-color);
+  cursor: pointer;
   margin-bottom: 94px;
 }
 
 .clients-icons:hover,
 .clients-icons:focus {
-  fill:var(--main-color);
-  border-color:var(--main-color);
+  fill: var(--main-color);
+  border-color: var(--main-color);
 }
-
 
 /*===  END MAIN === */
 /* ==== FOOTER === */
@@ -438,7 +438,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill:var(--second-color);
+  fill: var(--second-color);
   cursor: pointer;
 }
 
@@ -448,7 +448,7 @@ footer {
   background-color: var(--main-color);
 }
 
- /* ==== END FOOTER === */
+/* ==== END FOOTER === */
 .image-title {
   font-weight: 700;
   font-size: 18px;
@@ -578,6 +578,3 @@ figure > .project-images {
   padding-bottom: 20px;
   padding-left: 24px;
 }
-
-
-
