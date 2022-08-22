@@ -363,7 +363,15 @@ h2 {
   fill: var(--main-color);
   border-color: var(--main-color);
 }
-
+.our-clients {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto";
+  padding-top: 94px;
+  line-height: 1.17;
+  padding-bottom: 50px;
+}
 /*===  END MAIN === */
 /* ==== FOOTER === */
 .address-phone-number-footer,
