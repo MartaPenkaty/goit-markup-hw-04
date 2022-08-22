@@ -132,9 +132,9 @@ h2 {
 }
 
 .main-contacts {
-  display: inline-flex;
-  flex-wrap: nowrap;
-  align-items: center;
+  display: inline-block;
+ /* flex-wrap: nowrap;
+  align-items: center;*/
 }
 
 .main-contacts:last-child > li {
