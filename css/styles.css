@@ -371,7 +371,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: red;
+  fill: #fff;
   cursor: pointer;
 }
 
