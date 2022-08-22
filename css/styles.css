@@ -132,7 +132,7 @@ h2 {
 }
 
 .main-contacts > li {
-  display: inline-block;
+  display: inline-flex;
 }
 
 .main-contacts:last-child > li {
