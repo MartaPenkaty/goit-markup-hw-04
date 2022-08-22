@@ -397,6 +397,8 @@ h2 {
 
 footer {
   background-color: var(--background-color);
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .footer-description {
@@ -447,6 +449,7 @@ footer {
   justify-content: center;
   fill: var(--second-color);
   cursor: pointer;
+  margin-top: 20px;
 }
 
 .footer-media-icons:hover,
