@@ -144,9 +144,9 @@ h2 {
 }
 
 .main-contacts {
-  display: inline-block;
- /* flex-wrap: nowrap;
-  align-items: center;*/
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .main-contacts:last-child > li {
@@ -250,7 +250,6 @@ h2 {
   color: var(--brand-color);
   text-align: center;
   margin-bottom: 10px;
-
   padding-top: 30px;
 }
 
