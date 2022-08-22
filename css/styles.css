@@ -150,10 +150,11 @@ h2 {
 .nav-icon {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-between; /*center; */
   align-items: center;
   padding-right: 10px;
+  padding-bottom: 25px;
+  padding-top: 24px;
 }
 /*
 .main-contacts {
