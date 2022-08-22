@@ -405,7 +405,7 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
 }
 .footer-info {
