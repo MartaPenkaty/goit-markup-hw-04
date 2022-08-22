@@ -111,14 +111,14 @@ h2 {
 .address-mail {
   color: #000000;
 }
-.header > .container {
+.headline > .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   height: 80px;
 }
-.header {
+.headline {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
@@ -131,16 +131,21 @@ h2 {
   margin-right: 46px;
 }
 
-.address > li {
+.main-contacts > li {
   display: inline-block;
 }
 
-.address:last-child > li {
+.main-contacts:last-child > li {
   margin-left: 50px;
 }
 
-.contact-icons {
+.nav-icon {
   fill: var(--description-color);
+}
+.nav-icon:hover,
+.nav-icon:focus {
+  color: #2196f3;
+  fill: #2196f3;
 }
 .nav-icon {
   display: flex;
