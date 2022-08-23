@@ -281,10 +281,12 @@ h2 {
   flex-direction: row;
   gap: 30px;
   margin-top: 50px;
+  justify-content: center;
 }
 
 .team-list > li {
   background-color: var(--second-color);
+  
 }
 
 .team-list-item > .team-images {
