@@ -464,7 +464,6 @@ footer {
   justify-content: center;
   fill: var(--second-color);
   cursor: pointer;
-  margin-top: 20px;
 }
 
 .footer-media-icons:hover,
