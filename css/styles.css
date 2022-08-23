@@ -281,6 +281,7 @@ h2 {
 
 .team-list > li {
   background-color: var(--second-color);
+  padding-bottom: 94px;
 }
 
 .team-list-item > .team-images {
