@@ -254,6 +254,10 @@ h2 {
   padding-top: 30px;
 }
 
+.team-member-job {
+  padding-top: 10px;
+}
+
 .team-list-item {
   font-weight: 400;
   font-size: 16px;
@@ -281,7 +285,6 @@ h2 {
 
 .team-list > li {
   background-color: var(--second-color);
-  padding-bottom: 94px;
 }
 
 .team-list-item > .team-images {
@@ -309,6 +312,7 @@ h2 {
   gap: 10px;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 }
 
 .padding-team {
@@ -344,6 +348,7 @@ h2 {
   flex-direction: row;
   gap: 30px;
   padding-top: 50px;
+  padding-bottom: 94px;
 }
 
 .clients-icons {
@@ -383,6 +388,8 @@ h2 {
   font-style: normal;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+  padding-top: 9px;
+  padding-bottom: 60px;
 }
 
 .address-phone-number-footer:hover,
@@ -394,6 +401,8 @@ h2 {
 
 .address {
   color: var(--second-color);
+  padding-top: 20px;
+  padding-bottom: 9px;
 }
 
 footer {
@@ -406,7 +415,7 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
 }
 .footer-info {
@@ -428,6 +437,7 @@ footer {
   text-transform: uppercase;
   color: var(--second-color);
   padding-top: 72px;
+  padding-bottom: 20px;
 }
 
 .footer-social-media {
