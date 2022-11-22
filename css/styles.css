@@ -122,6 +122,11 @@ h2 {
 .address-mail {
   color: var(--description-color);
   text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.contact-icons {
+  margin-right: 10px;
 }
 
 .header > .container {
@@ -248,7 +253,7 @@ h2 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  padding-bottom: 30px;
+  /*padding-bottom: 30px; */
 }
 
 .images-list {
@@ -256,9 +261,6 @@ h2 {
   flex-direction: row;
   gap: 30px;
   margin-top: 50px;
-}
-.images-list > li {
-  height: 294px;
 }
 
 .team-list {
@@ -276,7 +278,6 @@ h2 {
 }
 .team-list > li {
   background-color: var(--second-color);
-  height: 368px;
 }
 
 .team-list-item > .team-images {
@@ -347,16 +348,7 @@ h2 {
   gap: 30px;
   width: 1170px;
 }
-/*
-  padding-top: 50px;
-  padding-bottom: 94px;
-}*/
-/*
-.client-icon {
-  width: 106px;
-  height: 60px;
-  fill: var(--icon-color);
-}*/
+
 .clients-icons {
   border: 1px solid var(--icon-color);
   border-radius: 4px;
@@ -369,8 +361,8 @@ h2 {
   cursor: pointer;
 }
 
-.clients-box:hover,
-.clients-box:focus {
+.clients-icons:hover,
+.clients-icons:focus {
   fill: var(--main-color);
   border-color: var(--main-color);
 }
@@ -395,7 +387,7 @@ h2 {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   padding-top: 9px;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px;*/
 }
 
 .address-phone-number-footer:hover,
@@ -497,21 +489,6 @@ footer {
 }
 
 /* ==== END FOOTER === */
-.image-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--brand-color);
-  margin-bottom: 4px;
-}
-.image-subtitle {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.03em;
-  color: var(--description-color);
-}
 
 .first-btn {
   width: 121px;
@@ -597,20 +574,42 @@ footer {
   justify-content: center;
   margin-bottom: 50px;
 }
+.image-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--brand-color);
+  text-align: left;
+  margin-bottom: 0;
+  padding: 0;
+}
+.image-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+  text-align: left;
+  margin-top: 4px;
+}
 
 .images-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 30px;
+  padding: 0;
+  margin-bottom: 94px;
+  justify-content: center;
 }
 
 figure > .project-images {
   object-fit: cover;
 }
+.project-images {
+  display: block;
+}
 
 .images-description {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
+  padding: 20px 24px;
 }
